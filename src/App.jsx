@@ -1,4 +1,3 @@
-// src/App.jsx
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import Login from './components/Login';
@@ -17,7 +16,7 @@ const App = () => {
     }, []);
 
     const handleLogout = () => {
-        setAccessToken(null); // Reset accessToken khi logout
+        setAccessToken(null); 
     };
 
     return (

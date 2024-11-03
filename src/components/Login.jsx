@@ -1,4 +1,3 @@
-// src/components/Login.jsx
 import React from 'react';
 import { AUTH_URL } from '../spotify';
 import './Login.css';

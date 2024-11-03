@@ -1,4 +1,3 @@
-// src/components/Dashboard.jsx
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './Dashboard.css';
@@ -47,7 +46,7 @@ const Dashboard = ({ accessToken, onLogout }) => {
                             {item.track.preview_url && (
                                 <audio controls className="track-audio">
                                     <source src={item.track.preview_url} type="audio/mpeg" />
-                                    Your browser does not support the audio element.
+                                    Browser does not support the audio element.
                                 </audio>
                             )}
                         </div>
