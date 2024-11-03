@@ -1,0 +1,67 @@
+.dashboard {
+    padding: 20px;
+    background-color: #121212;
+    color: #fff;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.dashboard-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #1DB954; /* Màu xanh của Spotify */
+}
+
+.track-container {
+    display: flex;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+.track-container:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.track-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.track-info {
+    flex: 1;
+}
+
+.track-name {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.track-artist, .track-album, .track-popularity, .track-duration {
+    margin: 5px 0;
+}
+
+.track-audio {
+    margin-top: 10px;
+    width: 100%;
+}
+.logout-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #e0211b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+    background-color: #c91917;
+}

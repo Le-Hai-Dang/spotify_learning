@@ -1,0 +1,1 @@
+export const AUTH_URL = `https://accounts.spotify.com/authorize?client_id=${import.meta.env.VITE_SPOTIFY_CLIENT_ID}&response_type=token&redirect_uri=${import.meta.env.VITE_REDIRECT_URI}&scope=user-read-playback-state%20user-modify-playback-state%20user-read-private%20user-read-email`;
